@@ -1,0 +1,13 @@
+<section class="teste">
+  <div *ngFor="let character of characters">
+  <mat-card>
+      <img mat-card-image src="{{character.thumbnail.path}}.{{character.thumbnail.extension}}" alt="{{character.name}}">
+      <mat-card-title>
+        {{character.name}}
+      </mat-card-title>  
+      <mat-card-footer class="button">
+          <a mat-raised-button href="{{character.urls[0].url}}" target="_blank">Detalhes</a>  
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</section>

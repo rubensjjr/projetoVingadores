@@ -1,0 +1,16 @@
+.teste{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+}
+.teste img{
+    height: 300px;
+    padding: 16px;
+}
+
+.teste mat-card-footer{
+    padding-left: 16px;
+    
+}
